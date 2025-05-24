@@ -1,0 +1,7 @@
+api_key: ""
+model: ""
+tools:
+  - ReadFile
+  - ListFiles
+  - EditFile
+  - ShellCommand

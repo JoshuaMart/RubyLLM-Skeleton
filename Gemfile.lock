@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    colorize (1.1.0)
+    dotenv (3.1.7)
+    logger (1.7.0)
+    optparse (0.4.0)
+
+PLATFORMS
+  arm64-darwin-24
+  ruby
+
+DEPENDENCIES
+  colorize (~> 1.1)
+  dotenv (~> 3.1)
+  logger (~> 1.7)
+  optparse (~> 0.4.0)
+
+BUNDLED WITH
+   2.5.22
