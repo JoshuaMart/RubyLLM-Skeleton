@@ -9,7 +9,7 @@ module Tools
 
     def execute(path:)
       Utilities::Logs.info("  [Agent] [Read File]  - #{path}")
-      File.read(path).encode('utf-16')
+      File.read(path)
     rescue StandardError => e
       { error: e.message }
     end
