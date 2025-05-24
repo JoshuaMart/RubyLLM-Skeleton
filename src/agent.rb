@@ -59,8 +59,8 @@ class Agent
 
       response = @chat.ask user_input
       puts response.content
-    rescue RubyLLM::RateLimitError
-      Utilities::Logs.warn('  [Agent] [ERROR]      - Rate limit hit. Please wait a moment before trying again.')
+    rescue RubyLLM::RateLimitError => e
+      Utilities::Logs.warn("  [Agent] [ERROR]      - Rate limit hit. #{e}.")
     end
   end
 
